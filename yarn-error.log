@@ -1,0 +1,73 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files (x86)\PowerShell\7;C:\Program Files\AdoptOpenJDK\jdk-8.0.275.1-hotspot\bin;C:\Users\jenry\AppData\Local\Programs\Python\Python38-32;C:\Users\jenry\AppData\Local\Programs\Python\Python38-32\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\dotnet\;C:\Users\jenry\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HaxeToolkit\haxe;C:\HaxeToolkit\neko;C:\Program Files\Calibre2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files (x86)\PowerShell\7\;C:\Program Files\nodejs\;C:\Users\jenry\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\jenry\AppData\Local\Programs\Python\Python38-32\;C:\Users\jenry\AppData\Local\Microsoft\WindowsApps;C:\Users\jenry\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jenry\AppData\Local\Yarn\bin;C:\Program Files\dotnet\sdk\3.1.101;C:\Program Files\Git\bin;C:\Users\jenry\AppData\Local\hyper\app-3.0.2\resources\bin;C:\flutter\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files\CMake\bin;C:\msys64;C:\Users\jenry\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:136925:13)
+      at Interface.emit (node:events:390:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:390:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:390:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  {
+    "name": "react-complete-guide",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.6",
+      "@testing-library/react": "^11.2.2",
+      "@testing-library/user-event": "^12.5.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-scripts": "4.0.1",
+      "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
